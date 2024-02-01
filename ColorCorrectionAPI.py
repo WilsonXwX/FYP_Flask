@@ -4,7 +4,8 @@ import numpy as np
 import argparse
 import cv2
 import sys
-from flask import Flask, request, jsonify, send_file
+# from flask import Flask, request, jsoexposurenify, send_file
+from flask import Flask, request, send_file
 import io
 import os
 from os.path import exists
@@ -20,7 +21,7 @@ from src.io_ import *
 from src.api import *
 # import src
 import numpy as np
-from skimage.color import colorconv
+# from skimage.color import colorconv
 from src.color import *
 
 def find_color_card(image):
